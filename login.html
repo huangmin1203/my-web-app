@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <script src="./login.js"></script>
+    <title>huangmin_login</title>
+</head>
+
+<body>
+
+    <div class="beautify-container">
+
+        <div class="login-box"> 　
+            <div class="login-box-title">
+                登录你的账号
+            </div>　
+            <div class="form-item">
+                <!-- autocomplete="off" 记住账号密码 -->
+                <input class="username" type="text" autocomplete="off" placeholder="邮箱">
+            </div>
+            <div class="form-item">
+                <input class="password" type="password" autocomplete="off" placeholder="密码">
+            </div>
+            <div class="form-item">
+                <button class="submit" onclick="handlelogin('login-button')">登录</button></div>
+
+            　
+        </div>
+
+        <div class="register-box">
+            <div class="login-box-title">
+                注册你的账号
+            </div>　
+            <div class="form-item">
+                <!-- autocomplete="off" 记住账号密码 -->
+                <input class="username" type="text" autocomplete="off" placeholder="邮箱">
+            </div>
+            <div class="form-item">
+                <input class="password" type="password" autocomplete="off" placeholder="密码">
+            </div>
+            <div class="form-item">
+                <input class="password" type="password" autocomplete="off" placeholder="确认密码">
+            </div>
+            <div class="form-item">
+                <button class="submit" onclick="handleRegister()">注 册</button>
+            </div>
+        </div>
+
+
+        <div class="right-box">
+            <!-- <div class="title">
+                还没有账号吗？
+            </div> -->
+            <div class="action-button" onclick="handleToggleType('left')">
+                立 即 注 册
+            </div>
+        </div>
+    </div>
+
+</body>

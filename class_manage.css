@@ -1,0 +1,76 @@
+/* padding 内边距 */
+/* margin 外边距 */
+/* border 边框 */
+
+
+
+html,body,div,p,span,img,input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+    /* 字体颜色 */
+    color: black;
+    
+}
+
+body{
+    background: url('https://img0.baidu.com/it/u=2153164929,2266059734&fm=26&fmt=auto') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items:flex-start ;
+    height: 100vh;
+    justify-content: center;
+}
+
+.class-box{
+    margin-top: 40px;
+}
+.class-title{
+       /*设置一个文字大小*/
+        font-size: 30px;
+        /*设置一个字体*/
+        font-family: "STSong","新宋体","Arial";
+        /*设置一个小型大写字母*/
+        font-variant: small-caps;
+        /* 字间距 */
+        letter-spacing:10px
+}
+.class-input{
+    
+}
+
+
+.class-list {
+    padding-top: 20px;
+}
+
+dt {
+    margin: 10px 0;
+}
+
+.class-add {
+    display: flex;
+    align-items: center;
+}
+
+.class-add-input {
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.class-input-button {
+    width: 60px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff4a4a;
+    border: 0;
+}

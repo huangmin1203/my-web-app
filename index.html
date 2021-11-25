@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <title>huangmin</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class='header'>
+
+            <div class='header-left'>
+                <div class='logo'></div>
+                <img class='logo_img'
+                    src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwx4.sinaimg.cn%2Flarge%2F006xyoBFly4gug5i3r33dj60km08q74e02.jpg&refer=http%3A%2F%2Fwx4.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636988837&t=590ce511c7fd5d5bf0bf15e79afaa634">
+
+                <div class='text'>
+                    <div class="item">图片</div>
+                    <div class="item">视频</div>
+                    <div class="item" onmouseover="showExtendInfo()" onmouseout="hideExtendInfo()">...</div>
+
+                    <div class="extend-info">
+                        <div class="content">学术</div>
+                        <div class="content">词典</div>
+                        <div class="content">地图</div>
+                        <div class="content">MSV</div>
+                        <div class="content">Office</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class='header-right'>
+
+                <div class='login-box'>
+                    <a class='login-button' href="./login.html" title="欢迎进入到登录界面">立即体验</a>
+                    <img class='login-img' src="./assets/images/login.png">
+
+                </div>
+
+
+                <!-- <div class='login-box'>
+                    <a class='login-button' href="./login.html" title="欢迎进入到登录界面">登录</a>
+                    <img class='login-img' src="./assets/images/login.png">
+
+                </div>
+                <div class='regis-box'>
+                    <a class='regis-button' href="./regis.html" title="点击注册">注册</a>
+                    <img class='regis-img' src="./assets/images/regis.png">
+
+                </div> -->
+                <div class="more">
+                    <div class="pull" onmouseover="showMoreInfo()" onmouseout="hideMoreInfo()">更多</div>
+                    <div class="more-info">
+                        <div class="content">idea</div>
+                        <div class="content">mysql</div>
+                        <div class="content">vscode</div>
+                        <div class="content">jmeter</div>
+                        <div class="content">postman</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="body">
+            <div class="search-box">
+                <div class="language">
+                    <div class="language-text-left" onclick="handletoggle('left')">国内版</div>
+                    <div class="language-text-right" onclick="handletoggle('right')">国际版</div>
+
+
+                </div>
+                <div class="input-box">
+                    <input class="search-input" type="text" placeholder="搜索" onkeydown="handleInputKeydown()">
+                    <img src="./assets/images/icon_search.png" class="search-icon" onclick="handleSearch()">
+
+                </div>
+            </div>
+            <div class="background-toggle">
+                <img class="left-toggle" src="./assets/images/left_toggle.png" alt="" onclick="handletoggleBg('left')">
+                <img class="right-toggle" src="./assets/images/right_toggle.png" alt=""
+                    onclick="handletoggleBg('Right')">
+            </div>
+            <div class="foot">
+                <div class="item">增值联通业务经营许可证：合字12345678</div>
+                <div class="item">ICP备12345678</div>
+                <div class="item">备注一下11010802022657号</div>
+                <div class="item">隐私与 Cookie</div>
+                <div class="item">法律声明</div>
+                <div class="item">广告</div>
+                <div class="item">关于我们的广告</div>
+                <div class="item">帮助</div>
+                <div class="item">反馈</div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
