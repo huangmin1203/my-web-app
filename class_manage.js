@@ -18,13 +18,13 @@ function handlleclass() {
                 // 同类：getElementById、getElementByName、getElementByTagName
                 // 2. 遍历数组，组装成html字符串
                 // 3. 把html字符串放进目标元素
-                const classList = document.getElementByClassName('class-list')[0]
+                const classList = document.getElementsByClassName('class-list')[0]
                 console.log('classList', classList)
                 let htmlStr = ''
                 for (let index = 0; index < json.data.length; index++) {
                     htmlStr += `<dt>课程名称：
                     ${json.data[index]["title"]}
-                    
+
                     <button class="delete"
                         onclick="handleDeleteClass('${json.data[index].title}')"
                     >删除</button>

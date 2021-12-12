@@ -1,0 +1,158 @@
+/* padding 内边距 */
+/* margin 外边距 */
+/* border 边框 */
+
+
+
+html,body,div,p,span,img,input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+    /* 字体颜色 */
+    color:black;
+}
+   
+
+body{
+    background: url('https://img0.baidu.com/it/u=2153164929,2266059734&fm=26&fmt=auto') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.task-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.data{
+    display:flex;
+    align-items: center;
+    height: 20px; 
+    width:100%;
+    /* border:1px solid black; */
+    color:black;
+    background: white;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 20px;
+
+}
+.circle-box{
+    flex-grow: 0;
+    text-align: center;
+}
+.circle{
+    height:15px;
+    width:15px;
+}
+
+.task{
+    height:20px;
+    flex-grow: 1;
+    text-align: center;
+}
+.satr-box{
+    flex-grow: 0;
+    text-align: right;
+    padding-right: 20px;
+}
+.star{
+    height:15px;
+    width:15px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    
+    color:#fff;
+    /* background: black; */
+    bottom:10px;
+    width:100%;
+    position: fixed;
+    background-color:papayawhip;
+    border-radius: 5px;
+    
+    
+}
+.footer-pic{
+    flex-grow: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.search-input{
+    flex-grow: 8;
+    height:20px;
+    color: #fff;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.center-box{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    height: 30%;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    border:1px solid black;
+    text-align: center;
+
+}
+.center-text{
+    position:absolute;
+    left:50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.comtask-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.comdata{
+    display:flex;
+    align-items: center;
+    height: 20px; 
+    width:100%;
+    /* border:1px solid black; */
+    color:black;
+    background: white;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 20px;
+
+}
+
+.comcircle-box{
+    flex-grow: 0;
+    text-align: center;
+}
+.comcircle{
+    height:15px;
+    width:15px;
+    text-align: center;
+}
+
+.comtask{
+    height:20px;
+    flex-grow: 1;
+    text-align: center;
+}
+.comsatr-box{
+    flex-grow: 0;
+    text-align: right;
+    padding-right: 20px;
+}
+.comstar{
+    height:15px;
+    width:15px;
+}

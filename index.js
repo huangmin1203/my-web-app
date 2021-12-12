@@ -17,7 +17,6 @@ function handleInputKeydown() {
     if (window.event.keyCode === 13) {
         handleSearch()
     }
-
 }
 
 

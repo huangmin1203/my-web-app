@@ -1,0 +1,62 @@
+<!-- todo 要做的事情 -->
+
+<!-- 1. 实现一个 todo -->
+
+<!-- 涉及到的知识 -->
+
+<!-- 1. 实现界面：弹性布局、**固定定位** -->
+<!-- 2. 监听键盘回车事件 -->
+<!-- 3. 数据分组，用到数组、对象、对象的属性 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./todo.css">
+    <script src="./todo.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="big-box">
+        <div class="task-box">
+            <div class="data">
+                <div class="circle-box">
+                    <input class="circle" type="checkbox">
+                </div>
+                <div class="task">这是任务</div>
+                <div class="star-box">
+                    <img class="star" src="../assets/images/start.png" onclick="handleOnclick()"></img>
+                </div>
+            </div>
+        </div>
+        <div class="comtask-box">
+            <div class="comdata">
+                <div class="comcircle-box" >
+                    <input class="comcircle" type="checkbox">
+                </div>
+                <div class="comtask">这是已完成的任务</div>
+                <div class="comstar-box">
+                    <img class="comstar" src="../assets/images/start.png" onclick="handleOnclick1()"></img>
+                </div>
+            </div>
+        </div>
+
+        <div class="center-box">
+            <div class="center-text">huangmin</div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-pic"> + </div>
+            <input class="search-input" type="text" placeholder="添加任务" onkeydown="handleInputKeydown()">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
