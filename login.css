@@ -105,6 +105,7 @@ body{
     margin:0;
     padding-top: 20px;
     align-items: center;
+    
 }
 
 .form-item input {
@@ -114,7 +115,12 @@ body{
 
 .submit {
     width: 200px;
+    box-shadow: 9px 8px 9px #888888;
+    animation: mymove 5s infinite;
 }
+@keyframes mymove {
+    50% {box-shadow: 10px 10px 20px green;}
+  }
 
 .reg-bar {
     width:300px;
