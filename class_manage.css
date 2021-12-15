@@ -35,7 +35,8 @@ body{
         /*设置一个小型大写字母*/
         font-variant: small-caps;
         /* 字间距 */
-        letter-spacing:10px
+        letter-spacing:10px;
+        text-shadow: 5px 5px 5px #eeeeee;
 }
 .class-input{
     
